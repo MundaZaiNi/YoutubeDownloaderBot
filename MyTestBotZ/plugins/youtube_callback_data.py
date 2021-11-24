@@ -128,7 +128,7 @@ async def catch_youtube_dldata(c, q):
         med = InputMediaDocument(
             media=filename,
             thumb=thumb_image_path,
-            caption=os.path.basename(filename) + f"\n\n© @TG_Utubebot",
+            caption=os.path.basename(filename) + f"\n\n© @MundaZaiNi",
         )
 
     if cb_data.startswith("docvideo"):
@@ -137,7 +137,7 @@ async def catch_youtube_dldata(c, q):
         med = InputMediaDocument(
             media=filename,
             thumb=thumb_image_path,
-            caption=os.path.basename(filename) + f"\n\n© @TG_Utubebot",
+            caption=os.path.basename(filename) + f"\n\n© @MundaZaiNi",
         )
     if med:
         loop.create_task(send_file(c, q, med, filename))
