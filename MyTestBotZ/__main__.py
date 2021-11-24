@@ -7,7 +7,7 @@ APP_ID = config.APP_ID
 API_HASH = config.API_HASH
 
 plugins = dict(
-    root="MyTestBotZ/plugins",
+    root="MundaZaiNi/plugins",
 )
 
 Client(
